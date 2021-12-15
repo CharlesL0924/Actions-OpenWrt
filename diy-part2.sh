@@ -12,3 +12,12 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+rm -rf feeds/small/ipt2socks
+rm -rf feeds/small/pdnsd-alt
+rm -rf package/lean/kcptun
+rm -rf package/lean/trojan
+rm -rf feeds/small/v2ray-plugin
+rm -rf feeds/packages/utils/runc
+rm -rf package/feeds/packages/runc
+rm -rf feeds/packages/utils/containerd
+rm -rf package/feeds/packages/containerd
